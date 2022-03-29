@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
-$DATABASE_URL=parse_url('Your database URL');
+$DATABASE_URL=parse_url('postgresql-tapered-65741');
 
 return [
 
