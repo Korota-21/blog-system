@@ -1,7 +1,7 @@
 
 ## About BlogSystem
 
-Blog system is a Laravel application that gives the users the ability to:
+Blog system is a Laravel application that gives the user the ability to:
 - Register and login
 - View posts
 - Create a post
