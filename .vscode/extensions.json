@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "onecentlin.laravel-blade",
+        "felixfbecker.php-pack",
+        "wongjn.php-sniffer",
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-debug",
+        "felixfbecker.php-intellisense",
+        "onecentlin.laravel5-snippets"
+    ]
+}
