@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Storage;
 use App\Models\Post; // يستدعي المودل
-use GrahamCampbell\ResultType\Success;
 use Illuminate\Http\Request;
 // if you want to use reqular database queries you can uncomment this
 
@@ -78,7 +77,7 @@ class PostsController extends Controller
             // Get just ext
             $extension = $request->file('cover_image')->getClientOriginalExtension();
             // Filename to store
-            $fileNameToStore = $filename . '_' . time() . '.' . $extension;
+            $fileNameToStore = '_' . time() . '.' . $extension;
             // Upload Image
             $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
         } else {
