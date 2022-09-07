@@ -22,10 +22,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    @production
-        <script src="{{ secure_asset('js/app.js') }}" defer></script>
-        <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
-    @endproduction
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+
 </head>
 <body>
     <div id="app">
