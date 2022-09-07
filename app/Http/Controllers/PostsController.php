@@ -146,7 +146,7 @@ class PostsController extends Controller
             // Get just ext
             $extension = $request->file('cover_image')->getClientOriginalExtension();
             // Filename to store
-            $fileNameToStore = $filename . '_' . time() . '.' . $extension;
+            $fileNameToStore = '_' . time() . '.' . $extension;
             // Upload Image
             $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
         }
