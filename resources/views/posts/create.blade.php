@@ -26,4 +26,7 @@
                     {!! Form::close() !!}
                 </div>
             </div>
+            <script>
+                CKEDITOR.replace('article-ckeditor');
+            </script>
         @endsection

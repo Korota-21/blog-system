@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -30,9 +32,6 @@
             </div>
         </main>
     </div>
-    <script>
-        CKEDITOR.replace('article-ckeditor');
 
-    </script>
 </body>
 </html>
