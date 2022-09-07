@@ -9,3 +9,4 @@ Blog system is a Laravel application that gives the user the ability to:
 - Edit post
 - Delete post
 
+Hosted here http://blog-system1.herokuapp.com/
